@@ -1,0 +1,11 @@
+{
+    "name": "fastapi-lambda",
+    "version": "1.0.0",
+    "dependencies": {
+      "serverless": "^3.34.0"
+    },
+    "scripts": {
+      "deploy": "serverless deploy",
+      "remove": "serverless remove"
+    }
+}

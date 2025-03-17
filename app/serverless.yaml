@@ -1,0 +1,31 @@
+service: fastapi-app
+
+provider:
+  name: aws
+  runtime: python3.9
+  region: us-east-1
+  timeout: 30
+  memorySize: 512
+  stage: dev
+  environment:
+    ENV: production
+
+functions:
+  app:
+    handler: handler.lambda_handler
+    events:
+      - http: ANY /
+      - http: ANY {proxy+}
+
+custom:
+  wsgi:
+    app: app.main.app  # Especifica la aplicación FastAPI
+    packRequirements: false
+  pythonRequirements:
+    dockerizePip: true
+    layer: true
+
+plugins:
+  - serverless-python-requirements
+  - serverless-wsgi
+  - serverless-offline

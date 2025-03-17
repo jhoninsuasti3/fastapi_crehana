@@ -1,0 +1,5 @@
+fastapi
+mangum
+pydantic
+serverless-wsgi
+serverless-python-requirements
