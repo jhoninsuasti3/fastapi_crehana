@@ -129,10 +129,10 @@ pytest --disable-warnings
 
 
 ### **📌 Resumen**
-✅ **Incluimos la descripción del proyecto y arquitectura hexagonal**.
-✅ **Añadimos instrucciones para configurar el entorno local**.
-✅ **Incluimos pasos para ejecutar la API con Docker**.
-✅ **Añadimos instrucciones para ejecutar pruebas unitarias e integración**.
-✅ **Proporcionamos ejemplos de uso con `curl` y enlaces a `Swagger UI`**.
+- ✅ **Incluimos la descripción del proyecto y arquitectura hexagonal**.
+- ✅ **Añadimos instrucciones para configurar el entorno local**.
+- ✅ **Incluimos pasos para ejecutar la API con Docker**.
+- ✅ **Añadimos instrucciones para ejecutar pruebas unitarias e integración**.
+- ✅ **Proporcionamos ejemplos de uso con `curl` y enlaces a `Swagger UI`**.
 
-🚀 **¡Este README cumple con todos los requerimientos y está listo para producción!** 🎯🔥
+🚀 **¡Este proyecto está listo para producción!** 🎯🔥
