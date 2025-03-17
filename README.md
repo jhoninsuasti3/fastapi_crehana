@@ -122,9 +122,10 @@ curl -X 'DELETE' 'http://127.0.0.1:8000/tasks/1/' -H 'accept: application/json'
 
 # 📌 Pruebas Automáticas
 Para verificar que todo el código cumple con los estándares:
+```bash
 pre-commit run --all-files
 pytest --disable-warnings
-
+```
 
 
 
